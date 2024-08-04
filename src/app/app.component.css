@@ -1,0 +1,68 @@
+
+ .container {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   height: 100vh;
+   width: 100%;
+   font-size: 20px; 
+   
+ }
+ 
+ .loginpage, .logoutpage {
+   padding: 20px;
+   border-radius: 8px;
+   color: white;
+
+   background-image: url('https://static.vecteezy.com/system/resources/previews/000/549/810/original/vector-abstract-technology-background-technology-digital-world-of-business-information-futuristic-blue-virtual-graphic-interface.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   width: 100%;
+   max-width: 400px; 
+ 
+ }
+ .loginpage div,.logoutpage div{
+   margin: 15px 0;   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ input, select{
+   width: 90%;
+   font-size: 16px;
+   padding: 5px;
+   border-radius: 8px;
+   margin: 10px 0;
+   border: 1px solid #ccc;
+ }
+ select{
+   font-size: 20px;
+ }
+ select:focus,input:focus {
+   border-color: #007bff;
+  outline: none;
+ }
+ button{
+   width: 50%;
+   padding: 10px;
+   border-radius: 8px;
+   background-color: rgb(18, 141, 182);
+   font-size: 20px;
+   color: #fff;
+   border: none; 
+  cursor: pointer;
+ }
+ button:hover {
+   background-color: rgb(15, 115, 149); 
+ }
+ h1{
+   text-align: center;
+   text-decoration: underline;
+   margin: 0;
+ }
+ label{
+   margin-right: 20px;
+   align-self: flex-start;
+ }
+
